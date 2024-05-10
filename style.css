@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    border: 10px dotted black;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    font-size: smaller;
+}
+
+.title {
+    font: italic;
+    background-color: gray;
+    width: fit-content;
+}
+
+#important {
+    color: yellow;
+    font-style: italic;
+}

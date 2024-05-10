@@ -1,6 +1,10 @@
 function buttonClick() {
     alert("Button clicked!");
-    if (document.getElementById("important").style.visibility = "visible") {
-        document.getElementById("important").style.visibility = "hidden"
+    var disappearing = document.getElementById("important");
+    
+    if (disappearing.style.visibility === "visible") {
+        disappearing.style.visibility = "hidden";
+    } else {
+        disappearing.style.visibility = "visible";
     }
 }
